@@ -15,3 +15,8 @@
 ## set / map
 - 两种存储结构
 - set 集合 没有顺序的 不能重复的
+- map 有key, 不能放重复的
+
+## Object.defineProperty
+- vue2.x 使用的作为数据劫持
+- 应用场景 vue数据劫持

@@ -14,9 +14,9 @@ let arr = [...s];
 // });
 // console.log(s.keys(), s.values(), s.entries());
 // for in  / forEach
-// for(let key of s){  //有迭代器 [Symbol.iterator]
-//     console.log(key, s);
-// }
+for(let key of s){  //有迭代器 [Symbol.iterator]
+    console.log(key, s);
+}
 
 // 并集  差集  交集
 let arr1 = [1,2,3];
