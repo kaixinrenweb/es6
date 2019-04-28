@@ -4,7 +4,7 @@ let obj1 = { name: "tales", age:function(){} };
 let obj = JSON.parse(JSON.stringify({...obj1}));
 // console.log(obj);
 
-//判断类型 typeof instanceof Object.prototype.toString.call constructor
+// 判断类型 typeof instanceof Object.prototype.toString.call constructor
 // 自己实现所谓的深拷贝方法 (递归的拷贝 一层层的拷贝实现)
 function deepClone(obj){ 
     // obj==null
